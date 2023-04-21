@@ -1,8 +1,11 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
+package com.chess;
 
-package com.mycompany.chess;
+import com.chess.display.GameBoard;
+import com.chess.display.formLogin;
+import javax.swing.JFrame;
 
 /**
  *
@@ -11,6 +14,9 @@ package com.mycompany.chess;
 public class Chess {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        formLogin lg = new formLogin();
+        lg.setVisible(true);
+
+        
     }
 }
